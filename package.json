@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "watch": "nodemon ./bin/www",
-    "dev": "DEBUG=expresssjs-middlewares:* npm run watch"
+    "devwin": "set DEBUG=expressjs-middlewares:* & npm run watch",
+    "devmac": "DEBUG=expressjs-middlewares:* npm run watch"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
